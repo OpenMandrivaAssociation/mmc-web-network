@@ -1,17 +1,15 @@
-%define snap r127
-
 %define _requires_exceptions pear(graph\\|pear(includes\\|pear(modules
 %define _enable_debug_packages %{nil}
 %define debug_package          %{nil}
 
 Summary:	DNS/DHCP management module for the MMC web interface
 Name:		mmc-web-network
-Version:	2.0.1
-Release:	%mkrel 0.%{snap}.2
+Version:	2.1.0
+Release:	%mkrel 1
 License:	GPL
 Group:		System/Servers
 URL:		http://lds.linbox.org/
-Source0:	%{name}-%{version}-%{snap}.tar.gz
+Source0:	%{name}-%{version}.tar.gz
 Patch0:		mmc-web-network-Makefile_fix.diff
 Requires:	dhcp-server bind
 Requires:	mmc-web-base
