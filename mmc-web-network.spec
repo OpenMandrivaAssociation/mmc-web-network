@@ -8,7 +8,7 @@ Version:	2.1.0
 Release:	%mkrel 1
 License:	GPL
 Group:		System/Servers
-URL:		http://lds.linbox.org/
+URL:		http://mds.mandriva.org/
 Source0:	%{name}-%{version}.tar.gz
 Patch0:		mmc-web-network-Makefile_fix.diff
 Requires:	dhcp-server bind
