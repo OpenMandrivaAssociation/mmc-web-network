@@ -14,6 +14,7 @@ Patch0:		mmc-web-network-Makefile_fix.diff
 Requires:	dhcp-server bind
 Requires:	mmc-web-base
 BuildArch:      noarch
+Buildroot:	%{_tmppath}/%{name}-buildroot
 
 %description
 Mandriva Management Console web interface designed by Linbox.
