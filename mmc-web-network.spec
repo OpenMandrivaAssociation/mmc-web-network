@@ -12,7 +12,7 @@ URL:		http://mds.mandriva.org/
 Source0:	%{name}-%{version}.tar.gz
 Patch0:		mmc-web-network-Makefile_fix.diff
 Requires:	dhcp-server bind
-Requires:	mmc-web-base >= 2.3.1
+Requires:	mmc-web-base >= 2.3.2
 BuildArch:      noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
