@@ -5,7 +5,7 @@
 Summary:	DNS/DHCP management module for the MMC web interface
 Name:		mmc-web-network
 Version:	2.3.2
-Release:	%mkrel 3
+Release:	4
 License:	GPL
 Group:		System/Servers
 URL:		https://mds.mandriva.org/
